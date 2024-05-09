@@ -9,9 +9,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Filtrar</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<style>
+      body {
+        text-align: center; 
+    }
+</style>
 </head>
 <body>
-	<h2>Filtrado por sección</h2>
+	<h2>Filtrar productos por sección</h2>
 
 	<label for="secciones">Eliga la sección para ver sus productos:</label>
 
@@ -59,7 +65,7 @@
 				</td>
 				<td>
 					<%
-					out.println(producto.getPrecio());
+					out.println(producto.getPrecio() + " €");
 					%>
 				</td>
 				<td>

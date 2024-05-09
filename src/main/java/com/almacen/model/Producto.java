@@ -1,5 +1,10 @@
 package com.almacen.model;
 
+/**
+ * Clase a partir de la cual crearemos instancias de Producto
+ * @author Raquel
+ *
+ */
 public class Producto {
 	public enum Seccion {
 		TELÉFONOS, ELECTRODOMÉSTICOS, ORDENADORES, TELEVISORES, ACCESORIOS

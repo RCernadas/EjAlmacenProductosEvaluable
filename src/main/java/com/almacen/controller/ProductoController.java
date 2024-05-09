@@ -12,7 +12,11 @@ import com.almacen.model.Producto.Seccion;
 import com.almacen.service.ProductoService;
 
 /**
- * Servlet implementation class ProductoController
+ * Servlet que usamos a modo de Controlador para cumplir todas las peticiones
+ * realizadas
+ * 
+ * @author Raquel
+ *
  */
 public class ProductoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -5,14 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Modificar producto</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+	<h2>Modificar precio de un producto</h2>
 	<form action="ProductoController" method="post">
 		<input type="hidden" name="ProductoServiceMethod" value="modificar">
-		Tiene que introducir el nombre del producto del que quiere actualizar
-		el precio y el nuevo precio
 		<p>
-
 			Nombre:<input type="text" name="nombre">
 		<p>
 			Precio: <input type="number" name="precio">

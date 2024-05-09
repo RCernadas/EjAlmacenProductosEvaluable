@@ -7,6 +7,8 @@
 <head>
 <meta charset="UTF-8">
 <title>ESTADO ALMACEN</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
 	<table border=1>
@@ -34,7 +36,7 @@
 				</td>
 				<td>
 					<%
-					out.println(ProductoService.productos.get(i).getPrecio());
+					out.println(ProductoService.productos.get(i).getPrecio() + " €");
 					%>
 				</td>
 				<td>
@@ -49,15 +51,10 @@
 		</tbody>
 	</table>
 	<p>
-		<a href="insertarFormulario.jsp">Insertar un producto</a>
-	<p>
-		<a href="modificarPrecioFormulario.jsp">Editar precio de un
-			producto</a>
-	<p>
-		<a href="borrarFormulario.jsp">Eliminar un producto</a>
-	<p>
-		<a href="filtrarFormulario.jsp">Filtrar productos por sección</a>
-	<p>
+	<button class="button" onclick="location.href='insertarFormulario.jsp'">Insertar un producto</button>
+	<button class="button" onclick="location.href='modificarPrecioFormulario.jsp'">Modificar precio de un producto</button>
+	<button class="button" onclick="location.href='borrarFormulario.jsp'">Eliminar un producto</button>
+	<button class="button" onclick="location.href='filtrarFormulario.jsp'">Filtrar productos por sección</button>
 		<%
 		out.println("Número de productos disponibles en el almacén: " + ProductoService.productos.size());
 		%>

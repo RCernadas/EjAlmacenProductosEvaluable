@@ -4,12 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>BORRAR FORMULARIO</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+	<h2>Eliminar un producto</h2>
 	<form action="ProductoController" method="post">
 		<input type="hidden" name="ProductoServiceMethod" value="borrar">
-		Tiene que introducir el nombre del producto que quiere borrars
 		<p>
 			Nombre:<input type="text" name="nombre">
 		<p>

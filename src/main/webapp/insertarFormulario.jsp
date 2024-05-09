@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insertar producto</title>
+<title>Añadir producto</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<h2>Inserte un nuevo producto</h2>
+	<h2>Añadir un producto</h2>
 
 	<form action="ProductoController" method="post">
 		<input type="hidden" name="ProductoServiceMethod" value="insertar">
